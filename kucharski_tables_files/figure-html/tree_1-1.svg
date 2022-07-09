@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504pt" height="288pt" viewBox="0 0 504 288" version="1.1">
+<g id="surface4">
+<rect x="0" y="0" width="504" height="288" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<path style="fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 142 144 L 362 64 "/>
+<path style="fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 142 144 L 362 224 "/>
+<path style="fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 362 224 L 362 224 "/>
+<path style="fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 362 64 L 362 64 "/>
+<path style="fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 163.601563 144 C 163.601563 155.929688 153.929688 165.601563 142 165.601563 C 130.070313 165.601563 120.398438 155.929688 120.398438 144 C 120.398438 132.070313 130.070313 122.398438 142 122.398438 C 153.929688 122.398438 163.601563 132.070313 163.601563 144 "/>
+<path style="fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 383.601563 64 C 383.601563 75.929688 373.929688 85.601563 362 85.601563 C 350.070313 85.601563 340.398438 75.929688 340.398438 64 C 340.398438 52.070313 350.070313 42.398438 362 42.398438 C 373.929688 42.398438 383.601563 52.070313 383.601563 64 "/>
+<path style="fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 383.601563 224 C 383.601563 235.929688 373.929688 245.601563 362 245.601563 C 350.070313 245.601563 340.398438 235.929688 340.398438 224 C 340.398438 212.070313 350.070313 202.398438 362 202.398438 C 373.929688 202.398438 383.601563 212.070313 383.601563 224 "/>
+</g>
+</svg>
