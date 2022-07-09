@@ -5,8 +5,6 @@ institute: ""
 date: "SIDVRA 2022-06-28"
 output:
   xaringan::moon_reader:
-#    css: xaringan-themer.css
-#    css: ["default-fonts.css"]
     css: [metropolis-fonts, "inverse.css"]
     lib_dir: libs
     nature:
@@ -27,8 +25,6 @@ library(gapminder)
 library(gt)
 library(gtExtras)
 library(gtsummary)
-# theme_gtsummary_compact()
-# library(crosstable)
 library(huxtable)
 library(modelsummary)
 library(reactable)
@@ -37,7 +33,6 @@ library(reactable)
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_mono_accent(
-#  base_color = "#1c5253",
   base_color = "#000000",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
@@ -73,6 +68,7 @@ class: left, middle
 .right[Stephen Few (2012) *Show Me the Numbers*]
 <!-- Few Stephen, Show Me the Numbers: Designing Tables and Graphs to Enlighten, Analytics Press (2012) -->
 
+
 ---
 class: center, middle, inverse
 
@@ -105,6 +101,7 @@ knitr::include_graphics(
 )
 ```
 
+
 ---
 class: center, middle, inverse
 
@@ -116,15 +113,13 @@ knitr::include_graphics(
 ```
 
 
-
 ---
 class: center, middle
-
 
 ```{r fig.align="default", out.width="80%", echo=FALSE}
 # grammar of tables
 knitr::include_graphics(
-"Schwabish.png"
+"images/Schwabish.png"
 )
 ```
 
@@ -140,7 +135,7 @@ class: center, middle
 ```{r fig.align="default", out.width="100%", echo=FALSE}
 # R
 knitr::include_graphics(
-"R_logo.svg"
+"images/R_logo.svg"
 )
 ```
 
@@ -167,6 +162,7 @@ class: top, left
 - ztable
 - condformat
 
+
 ---
 class: top, left
 
@@ -179,6 +175,7 @@ islands_tb <- tibble(name = names(islands), size = islands) |>
 
 gt(islands_tb)
 ```
+
 
 ---
 class: top, left
@@ -199,6 +196,7 @@ gt(islands_tb) |>
     footnote = "In Thousands of Square Miles") |>
   tab_options(table.width = px(450))
 ```
+
 
 ---
 class: top, left
@@ -228,15 +226,13 @@ knitr::include_graphics(
 ```
 
 
-
 ---
 class: center, middle
-
 
 ```{r fig.align="default", out.width="100%", echo=FALSE}
 # grammar of tables
 knitr::include_graphics(
-"gt_parts_of_a_table.svg"
+"images/gt_parts_of_a_table.svg"
 )
 ```
 
@@ -250,7 +246,6 @@ knitr::include_graphics(
 "https://media.giphy.com/media/iXTrbbYMQBCMM/source.gif"
 )
 ```
-
 
 
 ---
@@ -274,7 +269,8 @@ sp500 |>
   tab_header(title = "S&P 500",
              subtitle = glue("{start_date} to {end_date}")) |>
   fmt_date(columns = date, date_style = 1) |>
-  fmt_currency(columns = c(open, high, low, close), currency = "USD") |>   fmt_number(columns = volume, scale_by = 1 / 1E9, pattern = "{x}B") |>
+  fmt_currency(columns = c(open, high, low, close), currency = "USD") |>
+  fmt_number(columns = volume, scale_by = 1 / 1E9, pattern = "{x}B") |>
   fmt_number(columns = volume, suffixing = TRUE) |>
   text_transform(
     locations = cells_body(columns = close, rows = close > open),
@@ -612,7 +608,6 @@ team_df |>
 ```
 
 
-
 ---
 
 #### Pakiety / funkcje do tabeli wielodzielczych, statystyk, itd.:
@@ -774,6 +769,7 @@ modelsummary(
   coef_omit = "Intercept")
 ```
 
+
 ---
 class: center, top, inverse
 
@@ -795,7 +791,7 @@ class: top, left
 ```{r fig.align="default", out.width="100%", echo=FALSE}
 # output formats
 knitr::include_graphics(
-"gt_output_formats.png"
+"images/gt_output_formats.png"
 )
 ```
 
@@ -828,6 +824,7 @@ class: top, left
 reactable::reactable(iris)
 ```
 
+
 ---
 class: top, left
 
@@ -842,6 +839,7 @@ class: top, left
 - [Winners of the 2021 Table Contest](https://www.rstudio.com/blog/winners-of-the-2021-table-contest/)
 
 - [Winners of the 2020 RStudio Table Contest](https://www.rstudio.com/blog/winners-of-the-2020-rstudio-table-contest/)
+
 
 ---
 class: left, top
